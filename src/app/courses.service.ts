@@ -8,7 +8,7 @@ import { Course } from './course';
   providedIn: 'root'
 })
 export class CoursesService {
-  courselistUrl:string = 'https://cj-course-list.herokuapp.com/api/courses'
+  courselistUrl:string = 'http://localhost:6789/api/courses'
   
   constructor(private http:HttpClient) { }
 
