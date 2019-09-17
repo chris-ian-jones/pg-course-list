@@ -2,7 +2,11 @@
   <section
     *ngFor="let course of courses"
   >
-    <p>{{ course.name}}</p>
-
+    <h4>{{ course.name}}</h4>
+    <p>{{ course.teacher }}</p>
+    <p>{{ course.description }}</p>
+    <p>Duration: {{ course.length }} Weeks</p>
+    <p>{{ course.date }}</p>
+    <p>{{ course.course_code }}</p>
   </section>
 </div>
